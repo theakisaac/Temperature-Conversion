@@ -37,6 +37,10 @@ input {
   background: none;
 }
 
+::placeholder {
+  color: rgb(128, 239, 253);
+}
+
 #input-box {
   border: 1px solid black;
   padding: 0.6rem 2rem;

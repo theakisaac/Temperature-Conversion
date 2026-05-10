@@ -17,9 +17,8 @@ function tempConvert() {
     message.textContent = "Kindly select a conversion type";
     return;
   }
-
-  if (inputBox === "" || !inputBox) {
-    message.textContent = "Please enter a valid number.";
+  if (inputBox === "") {
+    message.textContent = `Please enter a valid number.`;
     return;
   }
 
